@@ -23,6 +23,10 @@ body {
     line-height: 1.6;
 
     color: #222;
+
+    @media only screen and (min-width: 31.26em) {
+        overflow: visible !important;
+    }
 }
 
 h1 {
