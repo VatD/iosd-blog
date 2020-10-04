@@ -1,0 +1,30 @@
+.btn {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    background: none;
+    font-weight: 700;
+    letter-spacing: .2ch;
+
+    border: 3px solid;
+    border-radius: 3px;
+
+    transition: all 200ms;
+
+    outline: none;
+    
+    &--md {
+        padding: 1rem 2rem;
+        margin: 1rem 2rem;
+    }
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 .25rem 2rem currentColor;
+    }
+
+    &:active,
+    &:focus {
+        transform: translateY(-3px);
+        box-shadow: 0 .25rem 2rem currentColor;
+    }
+}

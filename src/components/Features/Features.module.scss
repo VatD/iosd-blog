@@ -1,0 +1,25 @@
+$cool-blue: #101d2c;
+
+.features {
+    width: 100%;
+    margin: 5rem 0;
+    padding: 3rem;
+
+    background-color: $cool-blue;
+    color: white;
+
+    transform: skewY(-3deg);
+
+    & > * {
+        transform: skewY(3deg);
+    }
+}
+
+.container {
+    margin: 8rem 0;
+    color: $cool-blue;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 6rem;
+}

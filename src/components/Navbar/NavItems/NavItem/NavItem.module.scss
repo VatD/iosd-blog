@@ -1,0 +1,102 @@
+$color-blue: #0275d8;
+$color-blue-dark: #003d72;
+
+@mixin common {
+    cursor: pointer;
+
+    font-size: 1.5rem;
+    letter-spacing: 0.2ch;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    outline: none;
+
+    @media only screen and (max-width: 31.25em) {
+        font-size: 2rem;
+        margin: 1.5rem;
+    }
+}
+
+.link {
+    &,
+    &:link,
+    &:visited {
+        @include common;
+
+        position: relative;
+
+        color: $color-blue;
+
+        margin: .5rem 1rem;
+        padding: 1rem 1rem;
+    }
+
+    &::after {
+        content: "";
+        height: .5rem;
+        width: 100%;
+        position: absolute;
+        display: block;
+        left: 0;
+        top: 85%;
+        background-color: transparent;
+        transition: all 250ms;
+    }
+
+    &:hover {
+        &::after {
+            background-color: $color-blue;
+        }
+    }
+    
+    &:active,
+    &:focus {
+        color: $color-blue-dark;
+        &::after {
+            border-bottom: .5rem solid $color-blue-dark;
+        }
+    }
+}
+
+.box {
+
+    &,
+    &:link,
+    &:visited {
+
+        @include common;
+
+        z-index: 999;
+        
+        margin: .5rem 1rem;
+        padding: 1rem 2rem;
+
+        border-radius: 1rem;
+
+        border: 2px solid $color-blue;
+
+        transition: all 200ms;
+    }
+
+    &--fill {
+        background-color: $color-blue;
+        color: white;
+    }
+
+    &--nofill {
+        text-decoration: none;
+        color: $color-blue;
+    }
+
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0rem 1rem 2rem rgba(black, 0.2);
+    }
+    
+    &:active,
+    &:focus {
+        transform: translateY(-1px);
+        box-shadow: 0rem 1rem 2rem rgba(black, 0.2);
+    }
+}

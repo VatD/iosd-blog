@@ -1,0 +1,25 @@
+.feature {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    row-gap: 1rem;
+    column-gap: 2rem;
+
+    padding: 2rem;
+    background: white;
+    box-shadow: 0rem 1rem 3rem rgba(white, .2);
+    border-radius: 1rem;
+
+    transition: all 200ms;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+
+    div {
+        width: 4.5rem;
+        height: 4.5rem;
+        grid-row: 1 / span 2;
+
+        transform: translateY(-1rem);
+    }
+}

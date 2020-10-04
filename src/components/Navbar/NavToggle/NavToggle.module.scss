@@ -1,0 +1,57 @@
+.ham {
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem 1rem;
+    z-index: 999;
+}
+
+.hambar {
+
+    &, 
+    &::before,
+    &::after {
+        width: 3rem;
+        height: .5rem;
+        border-radius: 3px;
+        background-color: rgba(black, 0.8);
+        display: inline-block;
+        position: relative;
+    }
+
+    &::before, 
+    &::after {
+        content: " ";
+        position: absolute;
+        left: 0;
+        transition: all .2s;
+    }
+
+    &::after {
+        top: 1.2rem;
+    }
+
+    &::before {
+        top: -1.2rem;
+    }
+
+    &--open {
+        background-color: transparent;
+
+        &::before {
+            top: 0;
+            transform: rotate(315deg);
+        }
+
+        &::after {
+            top: 0;
+            transform: rotate(-315deg);
+        }
+    }
+
+    @media only screen and (min-width: 31.25em) {
+        display: none;
+    }
+}
