@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/iosd-blog/static/css/main.586f6030.chunk.css",
+    "main.css": "/iosd-blog/static/css/main.bfca6087.chunk.css",
     "main.js": "/iosd-blog/static/js/main.e9e5f75c.chunk.js",
     "runtime-main.js": "/iosd-blog/static/js/runtime-main.fd29d41c.js",
     "static/js/2.71495a0c.chunk.js": "/iosd-blog/static/js/2.71495a0c.chunk.js",
     "index.html": "/iosd-blog/index.html",
-    "precache-manifest.42b7f1357c7d4ed02a6d41e207f5655a.js": "/iosd-blog/precache-manifest.42b7f1357c7d4ed02a6d41e207f5655a.js",
+    "precache-manifest.6d971ca61a7a0d0fc56e3cd5dafafe60.js": "/iosd-blog/precache-manifest.6d971ca61a7a0d0fc56e3cd5dafafe60.js",
     "service-worker.js": "/iosd-blog/service-worker.js",
     "static/js/2.71495a0c.chunk.js.LICENSE.txt": "/iosd-blog/static/js/2.71495a0c.chunk.js.LICENSE.txt",
     "static/media/blob.svg": "/iosd-blog/static/media/blob.bf3a466a.svg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.fd29d41c.js",
     "static/js/2.71495a0c.chunk.js",
-    "static/css/main.586f6030.chunk.css",
+    "static/css/main.bfca6087.chunk.css",
     "static/js/main.e9e5f75c.chunk.js"
   ]
 }
