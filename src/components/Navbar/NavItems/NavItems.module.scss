@@ -23,10 +23,14 @@
 
         &--open {
             left: 0;
+            visibility: visible;
+            opacity: 1;
         }
 
         &--close {
             left: -150%;
+            visibility: hidden;
+            opacity: 0;
         }
     }
 }

@@ -3,7 +3,7 @@
     margin-bottom: 7rem;
 
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 5rem;
 
     background: linear-gradient(280deg, #fafafa 52.5%, transparent 47.5%);
@@ -15,21 +15,21 @@
 }
 
 .herosvg {
-    width: 90%;
+    width: 100%;
     height: auto;
     align-self: center;
     justify-self: center;
 
-    grid-column: 1 / 4;
+    grid-column: 1 / 2;
 
     @media only screen and (max-width: 50em) {
         grid-column: 1 / -1;
-        width: #{"min(90%, 40rem)"};
+        width: #{"min(100%, 50rem)"};
     }
 }
 
 .herotext {
-    grid-column: 4 / 7;
+    grid-column: 2 / 3;
     padding: 3rem;
     display: grid;
     

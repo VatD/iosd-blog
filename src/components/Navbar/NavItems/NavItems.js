@@ -3,6 +3,8 @@ import styles from "./NavItems.module.scss";
 import NavItem from "./NavItem/NavItem";
 
 const NavItems = (props) => {
+    if (props.open) document.body.style.overflow = "hidden"
+    else document.body.style.overflow = "visible"
     return (
         <ul
             className={`${styles.list} ${

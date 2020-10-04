@@ -44,11 +44,13 @@ $color-blue-dark: #003d72;
         transition: all 250ms;
     }
 
-    &:hover {
-        &::after {
-            background-color: $color-blue;
+    @media (hover:hover) {
+        &:hover {
+            &::after {
+                background-color: $color-blue;
+            }
         }
-    }
+    }  
     
     &:active,
     &:focus {
@@ -89,9 +91,11 @@ $color-blue-dark: #003d72;
         color: $color-blue;
     }
 
-    &:hover {
-        transform: translateY(-3px);
-        box-shadow: 0rem 1rem 2rem rgba(black, 0.2);
+    @media (hover:hover) {
+        &:hover {
+            transform: translateY(-3px);
+            box-shadow: 0rem 1rem 2rem rgba(black, 0.2);
+        }
     }
     
     &:active,

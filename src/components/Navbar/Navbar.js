@@ -17,7 +17,7 @@ const Navbar = () => {
     });
 
     const toggle = () => {
-        setOpenNav(!openNav);
+        if (window.innerWidth <= 500) setOpenNav(!openNav);
     };
 
     const handleScroll = () => {

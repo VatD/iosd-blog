@@ -8,7 +8,7 @@ const Footer = (props) => {
         <footer className={styles.footer}>
             <img src={whiteLogo} alt="IOSD Logo" className={styles.logo} />
             <p>
-                Made for IOSD Junior Council Selection with 
+                Made for IOSD Junior Council Selection with&nbsp;
                 <Heart className={styles.svg} /> and ReactJS.
             </p>
             <p>&copy; Vatsal Dhar, 2020</p>
