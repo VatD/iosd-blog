@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/iosd-blog/static/css/main.10694877.chunk.css",
-    "main.js": "/iosd-blog/static/js/main.977f6cd0.chunk.js",
+    "main.css": "/iosd-blog/static/css/main.586f6030.chunk.css",
+    "main.js": "/iosd-blog/static/js/main.e9e5f75c.chunk.js",
     "runtime-main.js": "/iosd-blog/static/js/runtime-main.fd29d41c.js",
     "static/js/2.71495a0c.chunk.js": "/iosd-blog/static/js/2.71495a0c.chunk.js",
     "index.html": "/iosd-blog/index.html",
-    "precache-manifest.0b6514761cf3b28b2254927413d4686e.js": "/iosd-blog/precache-manifest.0b6514761cf3b28b2254927413d4686e.js",
+    "precache-manifest.42b7f1357c7d4ed02a6d41e207f5655a.js": "/iosd-blog/precache-manifest.42b7f1357c7d4ed02a6d41e207f5655a.js",
     "service-worker.js": "/iosd-blog/service-worker.js",
     "static/js/2.71495a0c.chunk.js.LICENSE.txt": "/iosd-blog/static/js/2.71495a0c.chunk.js.LICENSE.txt",
     "static/media/blob.svg": "/iosd-blog/static/media/blob.bf3a466a.svg",
-    "static/media/blogger.ec5550d5.svg": "/iosd-blog/static/media/blogger.ec5550d5.svg",
+    "static/media/blogger.73d9d63a.svg": "/iosd-blog/static/media/blogger.73d9d63a.svg",
     "static/media/brainstorm.d543b2d8.svg": "/iosd-blog/static/media/brainstorm.d543b2d8.svg",
     "static/media/confetti.942f8ff2.svg": "/iosd-blog/static/media/confetti.942f8ff2.svg",
     "static/media/heart.f2610513.svg": "/iosd-blog/static/media/heart.f2610513.svg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.fd29d41c.js",
     "static/js/2.71495a0c.chunk.js",
-    "static/css/main.10694877.chunk.css",
-    "static/js/main.977f6cd0.chunk.js"
+    "static/css/main.586f6030.chunk.css",
+    "static/js/main.e9e5f75c.chunk.js"
   ]
 }

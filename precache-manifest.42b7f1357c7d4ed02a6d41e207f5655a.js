@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6f07d722e9b665b50dc397d6bfa6d1d4",
+    "revision": "d48388951a3c11bcec74099520d5f3cb",
     "url": "/iosd-blog/index.html"
   },
   {
-    "revision": "90bd9937cd39974fdc22",
-    "url": "/iosd-blog/static/css/main.10694877.chunk.css"
+    "revision": "5f52b7a7dea0819d47f6",
+    "url": "/iosd-blog/static/css/main.586f6030.chunk.css"
   },
   {
     "revision": "1337298c4b9fc74da05d",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/iosd-blog/static/js/2.71495a0c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "90bd9937cd39974fdc22",
-    "url": "/iosd-blog/static/js/main.977f6cd0.chunk.js"
+    "revision": "5f52b7a7dea0819d47f6",
+    "url": "/iosd-blog/static/js/main.e9e5f75c.chunk.js"
   },
   {
     "revision": "3011bcaf61a0ea8d2aec",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/iosd-blog/static/media/blob.bf3a466a.svg"
   },
   {
-    "revision": "ec5550d5cf318d174c710c0e7e2831da",
-    "url": "/iosd-blog/static/media/blogger.ec5550d5.svg"
+    "revision": "73d9d63a53f56b04255ba78fb346b267",
+    "url": "/iosd-blog/static/media/blogger.73d9d63a.svg"
   },
   {
     "revision": "d543b2d88babd254de13f20a249fc75f",
