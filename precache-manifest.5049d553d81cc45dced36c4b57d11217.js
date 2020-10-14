@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "602bf156ec411d3ea0b673cf4cbf4d65",
+    "revision": "4df1d187e9f3eac6281766e23f0e6bf3",
     "url": "/iosd-blog/index.html"
   },
   {
-    "revision": "dafdc1f1e33a96b6b8f8",
+    "revision": "d923a9d1d14878cd1ef6",
     "url": "/iosd-blog/static/css/main.bfca6087.chunk.css"
   },
   {
-    "revision": "3a21d7960050e67c59d3",
-    "url": "/iosd-blog/static/js/2.c8a03d6c.chunk.js"
+    "revision": "1337298c4b9fc74da05d",
+    "url": "/iosd-blog/static/js/2.71495a0c.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/iosd-blog/static/js/2.c8a03d6c.chunk.js.LICENSE.txt"
+    "url": "/iosd-blog/static/js/2.71495a0c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dafdc1f1e33a96b6b8f8",
-    "url": "/iosd-blog/static/js/main.97d1b7c5.chunk.js"
+    "revision": "d923a9d1d14878cd1ef6",
+    "url": "/iosd-blog/static/js/main.ed41a9a0.chunk.js"
   },
   {
     "revision": "3011bcaf61a0ea8d2aec",
