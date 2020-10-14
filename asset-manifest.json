@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/iosd-blog/static/css/main.bfca6087.chunk.css",
-    "main.js": "/iosd-blog/static/js/main.e9e5f75c.chunk.js",
+    "main.js": "/iosd-blog/static/js/main.97d1b7c5.chunk.js",
     "runtime-main.js": "/iosd-blog/static/js/runtime-main.fd29d41c.js",
-    "static/js/2.71495a0c.chunk.js": "/iosd-blog/static/js/2.71495a0c.chunk.js",
+    "static/js/2.c8a03d6c.chunk.js": "/iosd-blog/static/js/2.c8a03d6c.chunk.js",
     "index.html": "/iosd-blog/index.html",
-    "precache-manifest.9ecf8021e23155b259f7eefe42bd6d9f.js": "/iosd-blog/precache-manifest.9ecf8021e23155b259f7eefe42bd6d9f.js",
+    "precache-manifest.15071cb556db7e30c595f522393ab6a6.js": "/iosd-blog/precache-manifest.15071cb556db7e30c595f522393ab6a6.js",
     "service-worker.js": "/iosd-blog/service-worker.js",
-    "static/js/2.71495a0c.chunk.js.LICENSE.txt": "/iosd-blog/static/js/2.71495a0c.chunk.js.LICENSE.txt",
+    "static/js/2.c8a03d6c.chunk.js.LICENSE.txt": "/iosd-blog/static/js/2.c8a03d6c.chunk.js.LICENSE.txt",
     "static/media/blob.svg": "/iosd-blog/static/media/blob.bf3a466a.svg",
     "static/media/blogger.73d9d63a.svg": "/iosd-blog/static/media/blogger.73d9d63a.svg",
     "static/media/brainstorm.d543b2d8.svg": "/iosd-blog/static/media/brainstorm.d543b2d8.svg",
@@ -18,8 +18,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.fd29d41c.js",
-    "static/js/2.71495a0c.chunk.js",
+    "static/js/2.c8a03d6c.chunk.js",
     "static/css/main.bfca6087.chunk.css",
-    "static/js/main.e9e5f75c.chunk.js"
+    "static/js/main.97d1b7c5.chunk.js"
   ]
 }
